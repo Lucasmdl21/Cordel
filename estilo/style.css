@@ -1,7 +1,16 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Mr+Dafoe&family=Passion+One:wght@400;700;900&family=Playwrite+RO:wght@100..400&family=Poetsen+One&family=Shadows+Into+Light&family=Underdog&display=swap');
+
+:root{
+    --font1: "Playwrite RO", cursive;
+      --font2: Verdana, Geneva, Tahoma, sans-serif
+     
+}
 *{
     padding: 0px;
     margin: 0px;
+
 }
 html, body{
     min-height: 100vh;
@@ -15,6 +24,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+   font-size: 10vh;
 }
 header > p{
     padding-bottom: 50px;
@@ -28,7 +38,8 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    padding-top: 10vh;
+    font-family: var(--font1);
+    padding-top: 5vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
@@ -42,6 +53,7 @@ section.imagem{
     background-color: rgb(31, 29, 29);
 }
 section.imagem > p{
+    padding-left: 5px;
     width: 400px;
     background-color: rgb(55, 54, 54);
 }
