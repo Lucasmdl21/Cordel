@@ -56,7 +56,7 @@ section.imagem{
 }
 section.imagem > p{
     padding-left: 5px;
-    max-width: 400px;
+    max-width: 200px;
     background-color: rgba(110, 109, 109, 0.194);
 }
 section > p{
@@ -65,6 +65,7 @@ section > p{
 #im1{
 background-image: url(../imagens/background001.jpg);
 background-position: right center;
+
 }
 #im2{
 background-image: url(../imagens/background002.jpg);
